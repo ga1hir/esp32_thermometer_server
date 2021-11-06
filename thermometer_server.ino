@@ -51,8 +51,6 @@ void setup() {          // デバイス起動時の処理
   server.on("/", handleRoot);
   server.onNotFound(notFound);
   server.begin();
-
-  
 }
 
 void loop() {     //デバイス起動後の処理（無限ループ）
